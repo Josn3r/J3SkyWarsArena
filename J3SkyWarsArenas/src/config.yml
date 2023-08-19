@@ -1,0 +1,40 @@
+#
+# J3Studios SkyWars - Bungee Arena!
+# New SkyWars Project for Spigot!
+#
+
+# Server configuration
+server:
+  edit-mode: true
+  socket-connector:
+    enable: false
+    lobbies:
+    - '0.0.0.0:9876'
+  database:
+    enable: true
+    username: 'root'
+    password: ' '
+    hostname: 'localhost'
+    port: 3306
+    dbname: 'skywars'
+  
+# Game configuration
+config:
+  bungee-coord:
+    sw-lobby-proxies:
+    - 'lobby'
+  bungee-shared:
+    enable: true
+    games-to-restart: 8
+    max-simultaneous-games: 4
+    maps:
+      tron:
+        arenaName: Tron
+        players:
+          min: 4
+          max: 12
+        schematic: 'tron.schematic'
+        mapSize:
+          min: 50
+          max: 50
+  

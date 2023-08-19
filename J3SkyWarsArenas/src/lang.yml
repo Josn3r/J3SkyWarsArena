@@ -1,0 +1,133 @@
+#
+# J3Studios SkyWars - Bungee Arena!
+# New SkyWars Project for Spigot!
+#
+
+prefix: '&6Sky&eWars &7» '
+
+messages:
+  server:
+    join: '&e¡&7<PLAYER>&e se ha unido (&b<ONLINE>&e/&b<MAXPLAYERS>&e)!'
+    leave: '&e¡&7<PLAYER>&e ha salido!'
+  game:
+    notEnoughPlayers: '&c¡No hay jugadores suficientes!'
+    forced: '&e¡El juego fue forzado a iniciar!'
+    countdown:
+      messages:
+      - '1:30 ; &e¡El juego comienza en &c1 &eminuto &c30 &esegundos!'
+      - '1:00 ; &e¡El juego comienza en &c1 &eminuto!'
+      - '30 ; &e¡El juego comienza en &c30 &esegundos!'
+      - '20 ; &e¡El juego comienza en &c20 &esegundos!'
+      - '10 ; &e¡El juego comienza en &c10 &esegundos!'
+      - '5 ; &e¡El juego comienza en &c5 &esegundos!'
+      - '4 ; &e¡El juego comienza en &c4 &esegundos!'
+      - '3 ; &e¡El juego comienza en &c3 &esegundos!'
+      - '2 ; &e¡El juego comienza en &c2 &esegundos!'
+      - '1 ; &e¡El juego comienza en &c1 &esegundo!'
+      startChat: '&e¡Los cristales se han roto! &c¡A LUCHAR!'
+      titles:
+      - '10 ; &e10 segundos ; &e¡Haz click derecho en el arco para elegir un kit!'
+      - '5 ; &c5 segundos ; &e¡Haz click derecho en el arco para elegir un kit!'
+      - '4 ; &c4 segundos ; &e¡Haz click derecho en el arco para elegir un kit!'
+      - '3 ; &c3 segundos ; &e¡Haz click derecho en el arco para elegir un kit!'
+      - '2 ; &c2 segundos ; &e¡Haz click derecho en el arco para elegir un kit!'
+      - '1 ; &c1 segundo ; &e¡Haz click derecho en el arco para elegir un kit!'
+      startTitle: '&c¡A LUCHAR! ; &fBuena suerte!'
+    events:
+      win:
+      - ' '
+      - '&e¡&b<WINNER> &eha ganado la partida!'
+      - ' '
+      - '&a&lAsesino No.1 &7- <TK_1_N> &7- <TK_1_K> kills'
+      - '&e&lAsesino No.2 &7- <TK_2_N> &7- <TK_2_K> kills'
+      - '&6&lAsesino No.3 &7- <TK_3_N> &7- <TK_3_K> kills'
+      draw:
+      - ' '
+      - '&e¡Nadie ha ganado, ha sido empate!'
+      - ' '
+      - '&a&lAsesino No.1 &7- <TK_1_N> &7- <TK_1_K> kills'
+      - '&e&lAsesino No.2 &7- <TK_2_N> &7- <TK_2_K> kills'
+      - '&6&lAsesino No.3 &7- <TK_3_N> &7- <TK_3_K> kills'
+      refillChest: '&e¡Todos los cofres fueron rellenados!'
+    player:
+      bow: '&b<PLAYER> &eestá a &b<HEALTH> &ede vida.'
+      onDeath:
+        byVoid:
+        - '&f<PLAYER> &eno soportó la presión y se suicidó.'
+        - '&f<PLAYER> &ecreyó que podía volar!'
+        - '&f<PLAYER> &ese mató jaja!'
+        - '&f<PLAYER> &eintentó ser un dios y falló!'
+        - '&f<PLAYER> &epensó que era un PRO y cayó al vacío jaja!'
+        byPlayer:
+        - '&f<PLAYER> &efue molido a golpes por &f<KILLER>'
+        - '&f<KILLER> &ele tronó las nalgas a &f<PLAYER>'
+        - '&f<PLAYER> &ese fué al paraiso gracias a &f<KILLER>'
+        - '&f<PLAYER> &ese volvió polvo por &f<KILLER>'
+        - '&f<PLAYER> &emurió a manos de &f<KILLER>'
+        - ' '
+  actionBar:
+    kitSelected: '&7Kit seleccionado: &e<KIT>'
+    killed: '&7¡Has asesinado a <PLAYER> &b+<COINS>&7!'
+  leaveItem:
+    teleporting: 
+    - '&aTeletransportándote hacia el lobby en 3 segundos...'
+    - '&a¡Haz click derecho otra vez para cancelar'
+    cancel: '&c¡Teletransportación cancelada!'
+  kitSelection:
+    selected: '&eHas seleccionado el kit &a<KIT>'
+    noPermission: '&cNo tienes permiso para usar o comprar este kit, si quieres todos los kits puedes comprar un rango en &btienda.j3studios.store'
+    noCoins: '&cNo tienes monedas para comprar este kit, si quieres todos los kits puedes comprar un rango en &btienda.j3studios.store'
+    bought: '&eHas comprado el kit &a<KIT>&e, ¡disfrútalo!'
+  cages:
+    selected: '&eHas seleccionado la caja &a<CAGE>'
+    nPermission: '&cNo tienes permiso para usar esta caja, si quieres todas las cajas, puedes comprar un rango en &btienda.j3studios.store'
+    noCoins: '&eNo tienes monedas.'
+    bought: '&eHas comprado la caja &a<CAGE>&e, ¡disfrútalo!'
+  winEffect:
+    selected: '&eHas seleccionado el efecto de victoria &a<WIN_EFFECT>'
+    noPermission: '&cNo tienes permiso para usar esta caja, si quieres todos los efectos de victoria, puedes comprar un rango en &btienda.j3studios.store'
+    noCoins: '&eNo tienes monedas.'
+    bought: '&eHas comprado el efecto de victoria &a<WIN_EFFECT>&e, ¡disfrútalo!'
+  arrowTrail:
+    selected: '&eHas seleccionado el rastro de flecha &a<ARROW_TRAIL>'
+    noPermission: '&cNo tienes permiso para usar este rastro de flecha, si quieres todos los rastro de flechas, puedes comprar un rango en &btienda.j3studios.store'
+    noCoins: '&eNo tienes monedas.'
+    bought: '&eHas comprado el rastro de flecha &a<ARROW_TRAIL>&e, ¡disfrútalo!'
+  autoMode:
+    enabled: '&aHas activado el modo automático.'
+    disabled: '&cHas desactivado el modo automático.'
+    handling: '&e¡Serás enviado a una arena en &b<TIME>&e!'
+    now: '&e¡Buscando arena!'
+  votes:
+    lives:
+      voted:
+        self: '&eHas votado por &f<VOTE> &e(&f<VOTES> votos&e).'
+        others: '&f<PLAYER>&e ha votado por &f<VOTE> &e(&f<VOTES> votos&e).'
+      cantVote:
+        already: '&eYa has votado.'
+        noPermission: '&cNo tienes permiso para votar la cantidad de vida, si quieres poder votar esto, puedes comprar un rango en &btienda.j3studios.store'
+      selected:
+        noVotes: '&eNo se ha seleccionado ninguna cantidad de vida, serán 10 corazones.'
+        specific: '&eCantidad de corazones: &f<VOTE> &e(&f<VOTES> votos&e)'
+    time:
+      voted:
+        self: '&eHas votado por &f<VOTE> &e(&f<VOTES> votos&e).'
+        others: '&f<PLAYER>&e ha votado por &f<VOTE> &e(&f<VOTES> votos&e).'
+      cantVote:
+        already: '&eYa has votado.'
+        noPermission: '&cNo tienes permiso para votar el tiempo, si quieres poder votar esto, puedes comprar un rango en &btienda.j3studios.store'
+      selected:
+        noVotes: '&eNo se ha seleccionado tiempo, será de día.'
+        specific: '&eTiempo: &f<VOTE> &e(&f<VOTES> votos&e)'
+    chest:
+      voted:
+        self: '&eHas votado por &f<VOTE> &e(&f<VOTES> votos&e).'
+        others: '&f<PLAYER>&e ha votado por &f<VOTE> &e(&f<VOTES> votos&e).'
+      cantVote:
+        already: '&eYa has votado.'
+        noPermission: '&cNo tienes permiso para votar los cofres, si quieres poder votar esto, puedes comprar un rango en &btienda.j3studios.store'
+      selected:
+        noVotes: '&eNo se ha seleccionado tiempo, serán normales'
+        specific: '&eTiempo: &f<VOTE> &e(&f<VOTES> votos&e)'
+  noPermission:
+    startCmd: '&fNo tienes permiso para usar este comando, si quieres poder usar esto, compra rango en &btienda.j3studios.store'

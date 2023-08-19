@@ -1,0 +1,67 @@
+items:
+  island:
+  - 100 wood 64
+  - 100 stone 32
+  - 80 snow_ball 32
+  - 60 egg 16
+  - 30 ender_pearl 2
+  - 50 lava_bucket 1
+  - 90 apple 1
+  - 70 golden_apple 2
+  - 65 golden_apple:1 1
+  - 20 bow 1 punch:3
+  - 80 bow 1 power:2
+  - 70 arrow 32
+  - 60 arrow 16
+  - 55 wooden_sword spharpness:2
+  - 15 stone_axe 1 efficiency:4
+  - 55 iron_chestplate 1 protection:3
+  - 60 iron_leggings 1 protection:3
+  - 50 iron_axe 1 sharpness:1
+  - 45 diamond_helmet 1 protection:4
+  - 55 diamond_helmet 1 protection:2
+  - 45 diamond_chestplate 1 protection:4
+  - 55 diamond_chestplate 1 protection:2
+  - 45 diamond_leggings 1 protection:4
+  - 55 diamond_leggings 1 protection:2
+  - 45 diamond_boots 1 protection:4
+  - 55 diamond_boots 1 protection:2
+  - 45 diamond_sword 1 sharpness:4
+  - 55 diamond_sword 1 sharpness:2
+  - 85 diamond_pickaxe 1 efficiency:4
+  - 10 potion:16421 2
+  - 10 potion:16418 2
+  - 10 potion:16428 2
+  center:
+  - 100 wood 64
+  - 100 stone 32
+  - 80 snow_ball 32
+  - 60 egg 16
+  - 30 ender_pearl 2
+  - 50 lava_bucket 1
+  - 90 apple 1
+  - 70 golden_apple 2
+  - 65 golden_apple:1 1
+  - 20 bow 1 punch:3
+  - 80 bow 1 power:2
+  - 70 arrow 32
+  - 60 arrow 16
+  - 55 wooden_sword spharpness:2
+  - 15 stone_axe 1 efficiency:4
+  - 55 iron_chestplate 1 protection:3
+  - 60 iron_leggings 1 protection:3
+  - 50 iron_axe 1 sharpness:1
+  - 45 diamond_helmet 1 protection:4
+  - 55 diamond_helmet 1 protection:2
+  - 45 diamond_chestplate 1 protection:4
+  - 55 diamond_chestplate 1 protection:2
+  - 45 diamond_leggings 1 protection:4
+  - 55 diamond_leggings 1 protection:2
+  - 45 diamond_boots 1 protection:4
+  - 55 diamond_boots 1 protection:2
+  - 45 diamond_sword 1 sharpness:4
+  - 55 diamond_sword 1 sharpness:2
+  - 85 diamond_pickaxe 1 efficiency:4
+  - 10 potion:16421 2
+  - 10 potion:16418 2
+  - 10 potion:16428 2

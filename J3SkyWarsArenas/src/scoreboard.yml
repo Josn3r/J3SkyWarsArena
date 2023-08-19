@@ -1,0 +1,66 @@
+#
+# J3Studios SkyWars - Bungee Arena!
+# New SkyWars Project for Spigot!
+#
+
+config:
+  variables:
+    DATE: 'dd/MM/yyyy'
+    NEXT_EVENT:
+    - '&fNext Event:'
+    - '&a<REFILL> &7- &f<TIME_REFILL>'
+    - ' '
+
+waiting:
+  title: '&e&lSKYWARS'
+  lines:
+  - '&7<DATE>'
+  - ' '
+  - '&fPlayers: &a<PLAYERS>/<MAX>'
+  - ' '
+  - '&fWaiting for players...'
+  - ' '
+  - '&fMap: &a<MAP>'
+  - ' '
+  - '&emc.j3studios.store'
+starting:
+  title: '&e&lSKYWARS'
+  lines:
+  - '&7<DATE>'
+  - ' '
+  - '&fPlayers: &a<PLAYERS>/<MAX>'
+  - ' '
+  - '&fStarting in &e<COUNTDOWN>&f.'
+  - ' '
+  - '&fMap: &a<MAP>'
+  - ' '
+  - '&emc.j3studios.store'
+in-game:
+  title: '&e&lSKYWARS'
+  lines:
+  - '&7<DATE>'
+  - ' '
+  - '<NEXT_EVENT>'
+  - '&fPlayers: &a<PLAYERS>/<MAX>'
+  - ' '
+  - 'Kills: &a<KILLS>'
+  - ' '
+  - 'Map: &a<MAP>'
+  - ' '
+  - 'Server: &a<SERVER>'
+  - ' '
+  - '&emc.j3studios.store'
+finish:
+  title: '&e&lSKYWARS'
+  lines:
+  - '&7<DATE>'
+  - ' '
+  - '&f&fGAME OVER!'
+  - ' '
+  - '&fTotal Kills: &a<KILLS>'
+  - ' '
+  - 'Map: &a<MAP>'
+  - ' '
+  - 'Server: &a<SERVER>'
+  - ' '
+  - '&emc.j3studios.store'
