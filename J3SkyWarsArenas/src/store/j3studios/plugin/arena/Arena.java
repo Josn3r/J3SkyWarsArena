@@ -61,7 +61,7 @@ public class Arena {
 	
 	private ArenaStatus arenaStatus;
 	
-	// Arena.class x2
+	// Arena.class
 	public Arena (World world, String name, Integer minPlayers, Integer maxPlayers) {
 		this.world = world;
 		
